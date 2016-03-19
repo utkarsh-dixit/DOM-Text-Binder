@@ -1,0 +1,29 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta charset="UTF-8">
+<title>SER</title>
+<script src="js/parser.js"></script>
+</head>
+<body>
+  <div id="YES" onclick="">
+    {{wow}}
+  </div>
+  <div id="YESs">
+    Yese
+    <span>{{wow}}</span>
+  </div>
+<script>
+
+window.onload = function(){
+  parser.init({
+    parse: function(){
+      this.wow = "this is great";
+
+    }
+  });
+}
+
+</script>
+</body>
+</html>
