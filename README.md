@@ -1,11 +1,11 @@
 # DOM-Text-Binder
 Dom-Text-Binder is a javascript library that allows to bind special tags in html Dom.
 # Usage
-Just bind any text using simple syntax:-
 Include the parser.js
 ```html
  <script src="js/parser.js"></script>
 ```
+Just bind any text using simple syntax:-
  ```
  {{variable}}
  ```
